@@ -19,7 +19,7 @@ public class ListaModel {
         Clientes nuevoCliente = new Clientes(apellido, nombre);
         this.ListaClientes.add(nuevoCliente);
         
-        JOptionPane.showMessageDialog(null, "");
+        
     }
     
     public Queue ListarClientes()
@@ -30,6 +30,8 @@ public class ListaModel {
     
     public void DesEncolar()
     {
+        
         this.ListaClientes.poll();
+        
     }
 }
